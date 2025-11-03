@@ -1,36 +1,32 @@
-# RVM Rideway MVP – Starter
+# RVM Rideway
 
-This is a minimal Next.js (App Router) + Firebase Admin starter with a basic Booking API and form.
+Welcome to **RVM Rideway** — your next-generation ride-sharing & micro-mobility platform.
 
-## Prerequisites
-- Node.js >= 18
-- A Firebase project with Firestore enabled
-- A Firebase Service Account key (JSON)
+## What it is  
+RVM Rideway is designed to power efficient, flexible transportation services in urban and suburban environments. Key features include:  
+- Real-time matching of drivers and riders, optimizing for minimal wait times and efficient routes  
+- Dynamic routing that adapts to live traffic, demand surges, and vehicle availability  
+- Micro-mobility integration: e-scooters, e-bikes and small vehicles alongside cars  
+- Scalable cloud architecture with modular services (dispatch, matching, billing, mobile clients)  
+- Data-driven operations: analytics dashboard, usage insights, cost & CO₂ tracking  
+- API-first design so fleet operators, local authorities and partners can integrate easily  
 
-## Setup
-```bash
-cp .env.example .env.local
-# Fill env values
-npm install
-npm run dev
-```
+## Why this matters  
+Modern cities demand smarter mobility. Traditional taxi & car-services face high operational costs, idle vehicles, inefficient routing and high emissions. RVM Rideway addresses these challenges by:  
+- Reducing vehicle idle-time via optimized matching & routing  
+- Improving rider experience with shorter waits and transparent pricing  
+- Supporting greener mobility by integrating lower-emission micro-mobility modes  
+- Enabling fleet operators to scale up with minimal infrastructure overhead  
 
-Open http://localhost:3000
+## Who it’s for  
+- Startup mobility operators looking to launch a ride/service with minimal tech overhead  
+- Established transportation providers seeking to modernize dispatch & matching  
+- City governments or local-authority mobility programmes wanting to integrate flexible services  
+- Developers & mobility-tech innovators who want to build on a modular, API-first mobility platform  
 
-### Firebase Service Account
-Firebase Console → Project Settings → Service Accounts → Generate new private key.
-Then set the env variables in `.env.local`.
-
-> IMPORTANT: Replace literal newlines in the private key with `\n`.
-
-## What works now
-- Customer booking form (Airport/Outstation/Rental)
-- POST /api/bookings → validates & stores in Firestore
-- Returns booking reference and rough fare estimate
-
-## Next
-- Add WhatsApp + Email notifications on booking confirmation
-- Add payment flow (Stripe/Razorpay)
-- Enhance fare logic with Distance Matrix
-```
-
+## Project structure  
+/rideway-backend # Core services: dispatch engine, matching, routing
+/rideway-mobile # Mobile apps (iOS / Android) for riders and drivers
+/rideway-dashboard # Web dashboard for fleet operators
+/rideway-analytics # Data-pipeline, reporting & CO₂ tracking
+/docs # Architecture, API specs, deployment guides
