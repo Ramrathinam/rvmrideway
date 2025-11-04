@@ -23,6 +23,29 @@ Modern cities demand smarter mobility. Traditional taxi & car-services face high
 - Established transportation providers seeking to modernize dispatch & matching  
 - City governments or local-authority mobility programmes wanting to integrate flexible services  
 - Developers & mobility-tech innovators who want to build on a modular, API-first mobility platform  
+# Contributing to RVM Rideway
+
+Thank you for your interest in contributing to **RVM Rideway**!  
+We’re building an open, scalable, and sustainable mobility platform — and your contributions make it stronger.
+
+---
+
+## 💡 Ways to Contribute
+You can help in many ways:
+- 🧠 **Feature ideas:** Suggest new modules or improvements.
+- 🪲 **Bug reports:** Open an issue describing the problem and reproduction steps.
+- ⚙️ **Code contributions:** Fix bugs, add features, or optimize existing modules.
+- 🧾 **Documentation:** Improve setup guides, API docs, or technical explanations.
+- 🎨 **Design:** Help refine the UI/UX for mobile or web dashboards.
+
+---
+
+## 🧭 Getting Started
+1. **Fork** this repository.  
+2. **Clone** your fork locally:  
+   ```bash
+   git clone https://github.com/<your-username>/rvm-rideway.git
+   cd rvm-rideway
 
 ## Project structure  
 /rideway-backend # Core services: dispatch engine, matching, routing
