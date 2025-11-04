@@ -40,7 +40,7 @@ Modern cities demand smarter mobility. Traditional taxi & car-services face high
 Clone the project and start development mode:
 
 ```bash
-git clone https://github.com/yourusername/rvm-rideway.git
+git clone [https://github.com/Ramrathinam/rvmrideway]
 cd rvm-rideway
 npm install
 npm start
