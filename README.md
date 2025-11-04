@@ -6,16 +6,14 @@ Welcome to **RVM Rideway** — your next-generation ride-sharing & micro-mobilit
 RVM Rideway is designed to power efficient, flexible transportation services in urban and suburban environments. Key features include:  
 - Real-time matching of drivers and riders, optimizing for minimal wait times and efficient routes  
 - Dynamic routing that adapts to live traffic, demand surges, and vehicle availability  
-- Micro-mobility integration: e-scooters, e-bikes and small vehicles alongside cars  
 - Scalable cloud architecture with modular services (dispatch, matching, billing, mobile clients)  
-- Data-driven operations: analytics dashboard, usage insights, cost & CO₂ tracking  
+- Data-driven operations: analytics dashboard, usage insights, cost  
 - API-first design so fleet operators, local authorities and partners can integrate easily  
 
 ## Why this matters  
 Modern cities demand smarter mobility. Traditional taxi & car-services face high operational costs, idle vehicles, inefficient routing and high emissions. RVM Rideway addresses these challenges by:  
 - Reducing vehicle idle-time via optimized matching & routing  
 - Improving rider experience with shorter waits and transparent pricing  
-- Supporting greener mobility by integrating lower-emission micro-mobility modes  
 - Enabling fleet operators to scale up with minimal infrastructure overhead  
 
 ## Who it’s for  
@@ -30,26 +28,9 @@ We’re building an open, scalable, and sustainable mobility platform — and yo
 
 ---
 
-## 💡 Ways to Contribute
-You can help in many ways:
-- 🧠 **Feature ideas:** Suggest new modules or improvements.
-- 🪲 **Bug reports:** Open an issue describing the problem and reproduction steps.
-- ⚙️ **Code contributions:** Fix bugs, add features, or optimize existing modules.
-- 🧾 **Documentation:** Improve setup guides, API docs, or technical explanations.
-- 🎨 **Design:** Help refine the UI/UX for mobile or web dashboards.
-
----
-
-## 🧭 Getting Started
-1. **Fork** this repository.  
-2. **Clone** your fork locally:  
-   ```bash
-   git clone https://github.com/<your-username>/rvm-rideway.git
-   cd rvm-rideway
-
 ## Project structure  
 /rideway-backend # Core services: dispatch engine, matching, routing
 /rideway-mobile # Mobile apps (iOS / Android) for riders and drivers
 /rideway-dashboard # Web dashboard for fleet operators
-/rideway-analytics # Data-pipeline, reporting & CO₂ tracking
 /docs # Architecture, API specs, deployment guides
+
