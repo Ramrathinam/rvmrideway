@@ -21,12 +21,6 @@ Modern cities demand smarter mobility. Traditional taxi & car-services face high
 - Established transportation providers seeking to modernize dispatch & matching  
 - City governments or local-authority mobility programmes wanting to integrate flexible services  
 - Developers & mobility-tech innovators who want to build on a modular, API-first mobility platform  
-# Contributing to RVM Rideway
-
-Thank you for your interest in contributing to **RVM Rideway**!  
-We’re building an open, scalable, and sustainable mobility platform — and your contributions make it stronger.
-
----
 
 ## Project structure  
 /rideway-backend # Core services: dispatch engine, matching, routing
